@@ -1,13 +1,43 @@
 <html>
     <head>
         <title>PCTutorial</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Roboto');
+            body {
+                font-family: 'Roboto', sans-serif;
+            }
+            div#lang_select {
+                background-color: #cdf;
+                padding: 10px;
+                
+            }
+            h1 {
+                font-family: 'Roboto Medium', sans-serif;
+            }
+            a {
+                text-decoration: none;
+                color: #555;
+                margin: 10px;
+            }
+            .flag {
+                width: 50px;
+                height: 30px;
+            }
+            h1 {
+                align-self: flex-start;
+            }
+            h2 {
+                align-content: flex-end;
+            }
+        </style>
     </head>
     <body>
         <h1>PCTutorial</h1>
         <h2>Select your language:</h2>
         <div id="lang_select">
-            <a href="/ru/">Russian / Русский</a>
-            <a href="/en/">English / English</a>
+            <a href="ru/"><img class="flag" src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/1200px-Flag_of_Russia.svg.png" alt=""> Russian / Русский</a>
+            <br>
+            <a href="en/"><img class="flag" src="https://media-exp2.licdn.com/mpr/mpr/AAIABADGAAAAAQAAAAAAAA1uAAAAJDQyZjRiZmJjLTVhM2YtNDE2ZC1hNTI0LTU1ZTllZDU4OTQ0ZQ.png" alt=""> English / English</a>
         </div>
     </body>
 </html>
